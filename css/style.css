@@ -56,21 +56,21 @@ body {
     background: linear-gradient(500deg,#ff005d88, #01061596, #ff00ff88);
 }
 
-.container h1{
+ h1{
     color: rgba(255, 255, 255, 0.747);
     text-align: center;
     margin-bottom: 20px;
     margin-top: 5px;
     padding: 10px;
 }
-.container label {
+label {
     font-size: 40px;
     color: rgba(255, 255, 255, 0.747);
     margin-left: 40%;
     font-weight: bold;
 }
 
-.container input {
+input {
     font-size: 30px;
     margin: 10px 5%;
     width: 90%;
@@ -93,7 +93,7 @@ body {
     background-color:rgb(126, 135, 223);
     transition: 1s;
 }
-.container p{
+ p{
     font-size: 20px;
     font-weight: bold;
     color: #CCCC99;
