@@ -1,0 +1,102 @@
+
+*{
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    overflow-x: hidden;
+
+}
+body {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #01061596;
+    justify-content: center;
+    align-items: center;
+    background: url(../assets/img/rower.jpg) center/cover no-repeat fixed;
+}
+
+.container {
+    background-color: #060c218a;
+    position: relative;
+    width: 600px;
+    min-height: 500px;
+    margin: 40px;
+}
+
+.container:before{
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.747);
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.container:after {
+    content: '';
+    position: absolute;
+    background: rgba(255, 255, 255, 0.938);
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -2;
+    filter: blur(40px);
+    margin: 30px;
+}
+.container:before,
+.container::after{
+    background: linear-gradient(500deg,#ff005d88, #01061596, #ff00ff88);
+}
+
+.container h1{
+    color: rgba(255, 255, 255, 0.747);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+.container label {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.747);
+    margin-left: 40%;
+    font-weight: bold;
+}
+
+.container input {
+    font-size: 30px;
+    margin: 10px 5%;
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.btn {
+    background-color: #ff00ff2a;
+    color:rgba(255, 255, 255, 0.747);
+    font-size: 30px;
+    margin: 15px 42%;
+    text-align: center;
+    border: lightgray, double, 1px;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    background-color:rgb(126, 135, 223);
+    transition: 1s;
+}
+.container p{
+    font-size: 20px;
+    font-weight: bold;
+    color: #CCCC99;
+    margin: 25px;
+    text-align: center;
+}
